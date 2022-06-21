@@ -9,6 +9,7 @@ import{useState} from 'react'
 
 function Nav() {
   const[activeNav, setActiveNav] = useState('#');
+  
   return (
     <nav>
       <a href="#" onClick={() => setActiveNav('#')} className={activeNav === '#' ? 'active' : ''}><AiOutlineHome/></a>
