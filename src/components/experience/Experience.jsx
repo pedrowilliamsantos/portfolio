@@ -3,7 +3,9 @@ import './Experience.css'
 // import { Container } from './styles';
 
 function Experience() {
-  return <div />;
+  return (
+    <section id='experience'>Experience</section>
+  );
 }
 
 export default Experience;

@@ -3,7 +3,9 @@ import './Contact.css'
 // import { Container } from './styles';
 
 function Contact() {
-  return <div />;
+  return (
+    <section id='contact'>Contact</section>
+  );
 }
 
 export default Contact;

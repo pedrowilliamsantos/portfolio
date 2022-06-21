@@ -3,7 +3,9 @@ import './Portifolio.css'
 // import { Container } from './styles';
 
 function Portifolio() {
-  return <div />;
+  return (
+    <section id='portifolio'>Portifolio</section>
+  );
 }
 
 export default Portifolio;

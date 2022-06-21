@@ -3,7 +3,9 @@ import './Services.css'
 // import { Container } from './styles';
 
 function Services() {
-  return <div />;
+  return (
+    <section id='services'>Services</section>
+  );
 }
 
 export default Services;
