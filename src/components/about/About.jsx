@@ -24,7 +24,7 @@ function About() {
             <article className='about__card'>
             <FaAward className='about__icon'/>
               <h5>Experience</h5>
-              <small>3+year working</small>
+              <small>1+ year working</small>
             </article>
 
             <article className='about__card'>
@@ -36,15 +36,14 @@ function About() {
             <article className='about__card'>
             <VscFolderLibrary className='about__icon'/>
               <h5>Projects</h5>
-              <small>20+ projects</small>
+              <small>6+ projects</small>
             </article>
           </div>
           <p>
-            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Culpa quam blanditiis aliquid alias
-            voluptatem iusto error atque magni, ipsum cum aliquam reprehenderit quae laudantium ut modi 
-            officia sequi optio nisi?
+            Meu perfil profissional é caracterizado pela facilidade de adaptação com ambientes de trabalho; 
+            Possuo habilidades de boas práticas de desenvolvimento; Curiosidade em aprender novas tecnologias; 
+            Proativo e comunicativo em ambientes de trabalho; Tenho interesse na área de Front-End (ReactJS, NodeJS, JavaScript).
           </p>
-
           <a href="#contact" className='btn btn-primary'>Let's Talk</a>
         </div>
       </div>

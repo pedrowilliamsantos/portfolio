@@ -19,9 +19,9 @@ function Footer() {
       </ul>
 
       <div className="footer__socials">
-        <a href="https://instagram.com"><FiInstagram/></a>
-        <a href="https://linkedin.com"><BsLinkedin/></a>
-        <a href="https://github.com"><AiOutlineGithub/></a>
+        <a href="https://instagram.com/pedrolwilliam"><FiInstagram/></a>
+        <a href="https://www.linkedin.com/in/pedro-william-937b10218/"><BsLinkedin/></a>
+        <a href="https://github.com/pedrowilliamsantos"><AiOutlineGithub/></a>
       </div>
 
       <div className="footer__copyright">
