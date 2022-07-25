@@ -40,7 +40,7 @@ function Experience() {
             <article className ='experience__details'>
               <BsPatchCheckFill className='experience__details-icon'/>
               <div>
-                <h4>React</h4>
+                <h4>ReactJS</h4>
                 <small className='text-light'>Basic</small>
               </div>
             </article>
@@ -72,14 +72,6 @@ function Experience() {
                 <div>
                   <h4>SQL Server</h4>
                   <small className='text-light'>Intermediate</small>
-                </div>
-              </article>
-
-              <article className ='experience__details'>
-                <BsPatchCheckFill className='experience__details-icon'/>
-                <div>
-                  <h4>MongoDB</h4>
-                  <small className='text-light'>INtermediate</small>
                 </div>
               </article>
 

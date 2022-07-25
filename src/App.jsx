@@ -16,7 +16,7 @@ export const App = () => {
         <Nav></Nav>
         <About></About>
         <Experience></Experience>
-        <Services></Services>
+        {/*<Services></Services>*/}
         <Portfolio></Portfolio>
         <Contact></Contact>
         <Footer></Footer>
