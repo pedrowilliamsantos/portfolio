@@ -46,6 +46,10 @@ header{
     padding: 5rem 1.5rem 1.5rem 1.5rem;
 }
 
+img {
+    border-radius: 5% 5% 0 0;
+}
+
 .scroll__down{
     position: absolute;
     right:-2.3rem;
