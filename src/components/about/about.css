@@ -15,8 +15,8 @@
 }
 
 .about__me-image{
-    /*width: 100%;
-    height: 56vh;*/
+    width: 100%;
+    height: 56vh;
     border-radius: 2rem;
     overflow: hidden;
     transform: rotate(10deg);
