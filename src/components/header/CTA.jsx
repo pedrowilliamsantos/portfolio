@@ -1,6 +1,5 @@
 import React from 'react';
 import CV from '../../assets/cv.pdf'
-// import { Container } from './styles';
 
 function CTA() {
   return (
