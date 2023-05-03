@@ -40,10 +40,20 @@ function About() {
             </article>
           </div>
           <p style={{textAlign:'justify'}}>
-            Meu perfil profissional é caracterizado pela facilidade de adaptação com ambientes de trabalho; Possuo habilidades de boas práticas de desenvolvimento; Curiosidade em aprender novas tecnologias; Proativo e comunicativo em ambientes de trabalho; Tenho interesse na área de Front-End (ReactJS, NodeJS, JavaScript).
-            Habilidades no Front-End com as ferramentas de HTML5 e CSS3 com responsividade; Desenvolvimento Web com HTML5, CSS3, Webservices e JavaScript; Procuro desenvolver para que qualquer programador possa entender o que estar no script; Uso as ferramentas VSCode, Netbeans, Postman em trabalho;
-            Experiência com Desenvolvimento de Softwares empresarias com JAVA, JavaScript e integração com SQL Server; Criação de websites com HTML5, CSS3 e JavaScript integrado com web services e banco de dados SQL Server;
-            Estou fazendo faculdade de Ciência da Computação no UniCEUB período noturno; Por fora da faculdade estou estudando ReactJS, JavaScript, NodeJS, Java;
+            Sou um Desenvolvedor Júnior apaixonado por tecnologia e sempre em busca de novos desafios. 
+            Estou concluindo a graduação em Ciência da Computação na faculdade UniCEUB e tenho como objetivo me tornar um profissional 
+            completo e atualizado para o mercado de trabalho.
+            Minhas habilidades incluem:
+            - Excelente conhecimento em HTML, CSS , Boostrap e Responsive Design, garantindo a criação de páginas web visualmente atraentes e acessíveis.
+            - Conhecimento intermediário em JavaScript e seus frameworks ReactJS e VueJS, permitindo a criação de aplicações web dinâmicas e interativas.
+            - Conhecimento intermediário em bancos de dados como PostgreSQL, SQL Server e MongoDB, capaz de modelar e manipular dados de forma eficiente.
+            - Experiência em modelagem de dados e criação de estruturas de banco de dados, garantindo a integridade e segurança dos dados.
+            - Conhecimento em PHP e no framework Laravel, que possibilitam a criação de aplicações web robustas e escaláveis.
+            - Familiaridade com metodologias ágeis, garantindo uma abordagem colaborativa e eficiente no desenvolvimento de projetos.
+            - Habilidade em lógica de programação, possibilitando a resolução de problemas de forma eficaz e criativa.
+            - Consumo de APIs RESTful para integração com outros sistemas e consumo de dados externos.
+            - Experiência em ambientes Mac/Linux/Windows e ferramentas como Visual Studio Code, Netbeans e Postman
+            - Familiaridade com plataformas de controle de versão como GitHub/GitLab
           </p>
           <a href="#contact" className='btn btn-primary'>Let's Talk</a>
         </div>
