@@ -6,14 +6,15 @@ import IMG3 from '../../assets/portfolio3.png'
 import IMG4 from '../../assets/portfolio4.png'
 import IMG5 from '../../assets/portfolio5.png'
 import IMG6 from '../../assets/portfolio6.png'
+import TESTE from '../../assets/imgshop.png'
 
 const dados = [
   {
     id: 1, 
-    image: IMG1,
-    title: 'A new way in cross-border payments',
-    github: 'https://github.com',
-    demo: 'https://dribbble.com/shots/18543304-A-new-way-in-cross-border-payments'
+    image: TESTE,
+    title: 'A clothing e-commerce site',
+    github: 'https://github.com/pedrowilliamsantos/shopstore',
+    demo: 'https://shopstore-livid.vercel.app/'
   },
   {
     id: 2, 
