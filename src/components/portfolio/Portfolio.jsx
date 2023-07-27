@@ -12,9 +12,9 @@ const dados = [
   {
     id: 1, 
     image: TESTE,
-    title: 'A clothing e-commerce site',
+    title: 'A Clothing E-commerce Site',
     github: 'https://github.com/pedrowilliamsantos/shopstore',
-    demo: 'https://shopstore-livid.vercel.app/'
+    demo: 'https://shopstore-pw.vercel.app/'
   },
   {
     id: 2, 

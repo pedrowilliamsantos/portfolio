@@ -45,19 +45,11 @@ function About() {
           </div>
           <p style={{textAlign:'justify'}}>
             Sou um Desenvolvedor Júnior apaixonado por tecnologia e sempre em busca de novos desafios. 
-            Estou concluindo a graduação em Ciência da Computação na faculdade UniCEUB e tenho como objetivo me tornar um profissional 
-            completo e atualizado para o mercado de trabalho.
-            Minhas habilidades incluem:<br/>
-            - Excelente conhecimento em HTML, CSS , Boostrap e Responsive Design, garantindo a criação de páginas web visualmente atraentes e acessíveis.<br/>
-            - Conhecimento intermediário em JavaScript e seus frameworks ReactJS e VueJS, permitindo a criação de aplicações web dinâmicas e interativas.<br/>
-            - Conhecimento intermediário em bancos de dados como PostgreSQL, SQL Server e MongoDB, capaz de modelar e manipular dados de forma eficiente.<br/>
-            - Experiência em modelagem de dados e criação de estruturas de banco de dados, garantindo a integridade e segurança dos dados.<br/>
-            - Conhecimento em PHP e no framework Laravel, que possibilitam a criação de aplicações web robustas e escaláveis.<br/>
-            - Familiaridade com metodologias ágeis, garantindo uma abordagem colaborativa e eficiente no desenvolvimento de projetos.<br/>
-            - Habilidade em lógica de programação, possibilitando a resolução de problemas de forma eficaz e criativa.<br/>
-            - Consumo de APIs RESTful para integração com outros sistemas e consumo de dados externos.<br/>
-            - Experiência em ambientes Mac/Linux/Windows e ferramentas como Visual Studio Code, Netbeans e Postman.<br/>
-            - Familiaridade com plataformas de controle de versão como GitHub/GitLab
+            Sou formado em Ciência da Computação na faculdade UniCEUB e tenho como objetivo me tornar um profissional 
+            completo e atualizado para o mercado de trabalho. No mundo do desenvolvimento, tenho buscado constantemente 
+            aprimorar minhas habilidades e como Programador Júnior, considero-me um aprendiz constante. Estou sempre empolgado 
+            em explorar novas linguagens de programação, frameworks e abordagens de desenvolvimento. Minha vontade de conhecimento 
+            impulsiona-me a enfrentar desafios complexos e aprimorar minhas habilidades a cada dia.
           </p>
           <a href="#contact" className='btn btn-primary'>Let's Talk</a>
         </div>
