@@ -1,26 +1,27 @@
 import React from 'react';
 import './portfolio.css'
 import IMG1 from '../../assets/imgshop.png'
-import IMG2 from "../../assets/comingsoon.jpg"
+import IMG2 from "../../assets/reactimg.jpeg"
+import IMG3 from "../../assets/comingsoon.jpg"
 
 const dados = [
     {
         id: 1,
         image: IMG1,
-        title: 'A Clothing E-commerce Site → Under Development',
+        title: 'A Clothing E-commerce',
         github: 'https://github.com/pedrowilliamsantos/shopstore',
         demo: 'https://shopstore-pw.vercel.app/'
     },
     {
         id: 2,
         image: IMG2,
-        title: 'Coming Soon...',
-        github: 'https://github.com/pedrowilliamsantos',
-        demo: 'https://github.com/pedrowilliamsantos'
+        title: 'React Admin DashBoard',
+        github: 'https://github.com/pedrowilliamsantos/react-admin',
+        demo: 'https://reactadmin-pw.vercel.app/'
     },
     {
         id: 3,
-        image: IMG2,
+        image: IMG3,
         title: 'Coming Soon...',
         github: 'https://github.com/pedrowilliamsantos',
         demo: 'https://github.com/pedrowilliamsantos'
