@@ -2,7 +2,8 @@ import React from 'react';
 import './portfolio.css'
 import IMG1 from '../../assets/imgshop.png'
 import IMG2 from "../../assets/reactimg.jpeg"
-import IMG3 from "../../assets/comingsoon.jpg"
+import IMG3 from "../../assets/restaurante.png"
+import CS from "../../assets/comingsoon.jpg"
 
 const dados = [
     {
@@ -22,6 +23,13 @@ const dados = [
     {
         id: 3,
         image: IMG3,
+        title: 'Restaurant Design Web',
+        github: 'https://github.com/pedrowilliamsantos/restaurante',
+        demo: 'https://restaurante-pw.vercel.app/'
+    },
+    {
+        id: 4,
+        image: CS,
         title: 'Coming Soon...',
         github: 'https://github.com/pedrowilliamsantos',
         demo: 'https://github.com/pedrowilliamsantos'
