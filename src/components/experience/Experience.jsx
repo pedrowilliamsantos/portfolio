@@ -32,7 +32,23 @@ const Experience = () => {
                         <article className='experience__details'>
                             <BsPatchCheckFill className='experience__details-icon' />
                             <div>
-                                <h4>JavaScript</h4>
+                                <h4>Material UI</h4>
+                                <small className='text-light'>Intermediate</small>
+                            </div>
+                        </article>
+
+                        <article className='experience__details'>
+                            <BsPatchCheckFill className='experience__details-icon' />
+                            <div>
+                                <h4>SASS/Tailwind</h4>
+                                <small className='text-light'>Advanced</small>
+                            </div>
+                        </article>
+
+                        <article className='experience__details'>
+                            <BsPatchCheckFill className='experience__details-icon' />
+                            <div>
+                                <h4>Responsive Design</h4>
                                 <small className='text-light'>Intermediate</small>
                             </div>
                         </article>
@@ -62,6 +78,14 @@ const Experience = () => {
                         <article className='experience__details'>
                             <BsPatchCheckFill className='experience__details-icon' />
                             <div>
+                                <h4>Next</h4>
+                                <small className='text-light'>Intermediate</small>
+                            </div>
+                        </article>
+
+                        <article className='experience__details'>
+                            <BsPatchCheckFill className='experience__details-icon' />
+                            <div>
                                 <h4>PHP</h4>
                                 <small className='text-light'>Intermediate</small>
                             </div>
@@ -78,7 +102,7 @@ const Experience = () => {
                         <article className='experience__details'>
                             <BsPatchCheckFill className='experience__details-icon' />
                             <div>
-                                <h4>SQL</h4>
+                                <h4>APIs</h4>
                                 <small className='text-light'>Intermediate</small>
                             </div>
                         </article>
@@ -93,6 +117,22 @@ const Experience = () => {
                             <BsPatchCheckFill className='experience__details-icon' />
                             <div>
                                 <h4>VS Code</h4>
+                                <small className='text-light'>Advanced</small>
+                            </div>
+                        </article>
+
+                        <article className='experience__details'>
+                            <BsPatchCheckFill className='experience__details-icon' />
+                            <div>
+                                <h4>Figma</h4>
+                                <small className='text-light'>Basic</small>
+                            </div>
+                        </article>
+
+                        <article className='experience__details'>
+                            <BsPatchCheckFill className='experience__details-icon' />
+                            <div>
+                                <h4>Scrum</h4>
                                 <small className='text-light'>Advanced</small>
                             </div>
                         </article>
@@ -116,7 +156,7 @@ const Experience = () => {
                         <article className='experience__details'>
                             <BsPatchCheckFill className='experience__details-icon' />
                             <div>
-                                <h4>Github</h4>
+                                <h4>Git</h4>
                                 <small className='text-light'>Intermediate</small>
                             </div>
                         </article>
