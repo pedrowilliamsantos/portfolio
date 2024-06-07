@@ -125,6 +125,15 @@ img{
  
 }
 
+@media screen and (min-width: 1024px) {
+  .container {
+    width: 70%; /* ou outra porcentagem adequada */
+  }
+  section {
+    margin-top: 8rem; /* ou ajuste conforme necessário */
+  }
+}
+
 @media screen and (max-width:600px) {
 
   .container{
