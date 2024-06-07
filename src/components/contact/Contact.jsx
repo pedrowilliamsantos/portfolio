@@ -1,26 +1,29 @@
-import React from 'react';
-import './contact.css'
-import { MdOutlineEmail } from 'react-icons/md'
-import { BsWhatsapp } from 'react-icons/bs'
-import { useRef } from 'react';
-import emailjs from 'emailjs-com'
+import React, { useRef, useState } from 'react';
+import './contact.css';
+import { MdOutlineEmail } from 'react-icons/md';
+import { BsWhatsapp } from 'react-icons/bs';
+import emailjs from 'emailjs-com';
 
 const Contact = () => {
-
     const form = useRef();
+    const [isSending, setIsSending] = useState(false);
+    const [feedbackMessage, setFeedbackMessage] = useState('');
 
     const sendEmail = (e) => {
         e.preventDefault();
+        setIsSending(true);
+        setFeedbackMessage('');
 
         emailjs.sendForm('service_m7381r1', 'template_xqtrpbt', form.current, 'EOBH7ZK-A36ArBXir')
-
-        e.target.reset()
-
-
             .then((result) => {
                 console.log(result.text);
+                setIsSending(false);
+                setFeedbackMessage('Message sent successfully!');
+                e.target.reset();
             }, (error) => {
                 console.log(error.text);
+                setIsSending(false);
+                setFeedbackMessage('Failed to send message, please try again.');
             });
     };
 
@@ -31,35 +34,37 @@ const Contact = () => {
 
             <div className="container contact__container">
                 <div className="contact__options">
-                    <articule className="contact__option">
-                        <MdOutlineEmail className='.contact__option-icon' />
+                    <article className="contact__option">
+                        <MdOutlineEmail className='contact__option-icon' />
                         <h4>Email</h4>
                         <h5>pedrowilliam866@gmail.com</h5>
-                        <a href="mailto:pedrowilliam866@gmail.com" target='_blank'>Send a message</a>
-                    </articule>
+                        <a href="mailto:pedrowilliam866@gmail.com" target='_blank' rel='noopener noreferrer'>Send a message</a>
+                    </article>
 
-                    <articule className="contact__option">
-                        <BsWhatsapp className='.contact__option-icon' />
+                    <article className="contact__option">
+                        <BsWhatsapp className='contact__option-icon' />
                         <h4>WhatsApp</h4>
                         <h5>61991835656</h5>
-                        <a href="https://api.whatsapp.com/send?phone=61991835656" target='_blank'>Send a message</a>
-                    </articule>
+                        <a href="https://api.whatsapp.com/send?phone=61991835656" target='_blank' rel='noopener noreferrer'>Send a message</a>
+                    </article>
 
-                    <articule className="contact__option">
-                        <MdOutlineEmail className='.contact__option-icon' />
+                    <article className="contact__option">
+                        <MdOutlineEmail className='contact__option-icon' />
                         <h4>LinkedIn</h4>
                         <h5>pedro-william-937b10218</h5>
-                        <a href="https://www.linkedin.com/in/pedro-william-937b10218/" target='_blank'>Send a message</a>
-                    </articule>
+                        <a href="https://www.linkedin.com/in/pedro-william-937b10218/" target='_blank' rel='noopener noreferrer'>Send a message</a>
+                    </article>
                 </div>
                 <form ref={form} onSubmit={sendEmail}>
                     <input type="text" name="name" placeholder='Your Full Name' required />
                     <input type="email" name="email" placeholder='Your Email' required />
                     <textarea name="message" rows="7" placeholder='Your Message' required></textarea>
-                    <button type='submit' className='btn btn-primary'>Send Message</button>
+                    <button type='submit' className='btn btn-primary' disabled={isSending}>
+                        {isSending ? 'Sending...' : 'Send Message'}
+                    </button>
+                    {feedbackMessage && <p className={feedbackMessage.includes('successfully') ? 'success-message' : 'error-message'}>{feedbackMessage}</p>}
                 </form>
             </div>
-
         </section>
     );
 }
