@@ -11,8 +11,8 @@ function About() {
 
     return (
         <section id='about'>
-            <h5>Get to Know</h5>
-            <h2>About Me</h2>
+            <h5>Carreira</h5>
+            <h2>Sobre mim</h2>
 
             <div className="container about__container">
                 <div className="about__me">
@@ -25,21 +25,21 @@ function About() {
                     <div className="about__cards">
                         <article className='about__card'>
                             <FaAward className='about__icon' />
-                            <h5>Experience</h5>
-                            <small>2+ year working</small>
+                            <h5>Experiência</h5>
+                            <small>4+ anos de trabalho</small>
                         </article>
 
                         <article className='about__card'>
                             <FiUsers className='about__icon' />
-                            <h5>Clients</h5>
-                            <small>0 clients</small>
+                            <h5>Clientes</h5>
+                            <small>3 clients</small>
                         </article>
 
                         <a href="#portfolio" onClick={() => setActiveNav('#portfolio')} className={activeNav === '#portfolio' ? 'active' : ''}>
                             <article className='about__card'>
                                 <VscFolderLibrary className='about__icon' />
-                                <h5>Projects</h5>
-                                <small>6+ projects</small>
+                                <h5>Projetos</h5>
+                                <small>6+ projetos</small>
                             </article>
                         </a>
                     </div>
@@ -51,7 +51,7 @@ function About() {
                         em explorar novas linguagens de programação, frameworks e abordagens de desenvolvimento. Minha vontade de conhecimento
                         impulsiona-me a enfrentar desafios complexos e aprimorar minhas habilidades a cada dia.
                     </p>
-                    <a href="#contact" className='btn btn-primary'>Let's Talk</a>
+                    <a href="#contact" className='btn btn-primary'>Contato</a>
                 </div>
             </div>
         </section>
