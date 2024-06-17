@@ -20,7 +20,7 @@ const Contact = () => {
             .then((result) => {
                 console.log(result.text);
                 setIsSending(false);
-                setFeedbackMessage('Message sent successfully!');
+                setFeedbackMessage('Mensagem enviada com sucesso!');
                 e.target.reset();
             }, (error) => {
                 console.log(error.text);
@@ -40,31 +40,31 @@ const Contact = () => {
                         <SiGmail style={{color:"#ec5353"}} className='contact__option-icon' />
                         <h4>Email</h4>
                         <h5>pedrowilliam866@gmail.com</h5>
-                        <a href="mailto:pedrowilliam866@gmail.com" target='_blank' rel='noopener noreferrer'>Send a message</a>
+                        <a href="mailto:pedrowilliam866@gmail.com" target='_blank' rel='noopener noreferrer'>Envie uma mensagem</a>
                     </article>
 
                     <article className="contact__option">
                         <BsWhatsapp style={{color: "green"}} className='contact__option-icon' />
                         <h4>WhatsApp</h4>
                         <h5>61991835656</h5>
-                        <a href="https://api.whatsapp.com/send?phone=61991835656" target='_blank' rel='noopener noreferrer'>Send a message</a>
+                        <a href="https://api.whatsapp.com/send?phone=61991835656" target='_blank' rel='noopener noreferrer'>Envie uma mensagem</a>
                     </article>
 
                     <article className="contact__option">
                         <BsLinkedin style={{color:"#4db5ff"}} className='contact__option-icon' />
                         <h4>LinkedIn</h4>
                         <h5>pedro-william-937b10218</h5>
-                        <a href="https://www.linkedin.com/in/pedro-william-937b10218/" target='_blank' rel='noopener noreferrer'>Send a message</a>
+                        <a href="https://www.linkedin.com/in/pedro-william-937b10218/" target='_blank' rel='noopener noreferrer'>Envie uma mensagem</a>
                     </article>
                 </div>
                 <form ref={form} onSubmit={sendEmail}>
-                    <input type="text" name="name" placeholder='Your Full Name' required />
-                    <input type="email" name="email" placeholder='Your Email' required />
-                    <textarea name="message" rows="7" placeholder='Your Message' required></textarea>
+                    <input type="text" name="name" placeholder='Seu nome completo' required />
+                    <input type="email" name="email" placeholder='Seu Email' required />
+                    <textarea name="message" rows="7" placeholder='Sua Mensagem' required></textarea>
                     <button type='submit' className='btn btn-primary' disabled={isSending}>
-                        {isSending ? 'Sending...' : 'Send Message'}
+                        {isSending ? 'Enviando...' : 'Enviar'}
                     </button>
-                    {feedbackMessage && <p className={feedbackMessage.includes('successfully') ? 'success-message' : 'error-message'}>{feedbackMessage}</p>}
+                    {feedbackMessage && <p className={feedbackMessage.includes('sucesso') ? 'success-message' : 'error-message'}>{feedbackMessage}</p>}
                 </form>
             </div>
         </section>
