@@ -44,12 +44,9 @@ function About() {
                         </a>
                     </div>
                     <p style={{ textAlign: 'justify' }}>
-                        Sou um Desenvolvedor Júnior apaixonado por tecnologia e sempre em busca de novos desafios.
-                        Sou formado em Ciência da Computação na faculdade UniCEUB e tenho como objetivo me tornar um profissional
-                        completo e atualizado para o mercado de trabalho. No mundo do desenvolvimento, tenho buscado constantemente
-                        aprimorar minhas habilidades e como Programador Júnior, considero-me um aprendiz constante. Estou sempre empolgado
-                        em explorar novas linguagens de programação, frameworks e abordagens de desenvolvimento. Minha vontade de conhecimento
-                        impulsiona-me a enfrentar desafios complexos e aprimorar minhas habilidades a cada dia.
+                        Olá! Me chamo Pedro William, sou um jovem apaixonado por tecnologia e design. Com sólida experiência em desenvolvimento web e 
+                        técnicas de design, dedico-me a criar experiências digitais inovadoras e visualmente cativantes. Minha missão é transformar 
+                        ideias em realidades digitais de impacto.
                     </p>
                     <a href="#contact" className='btn btn-primary'>Contato</a>
                 </div>
