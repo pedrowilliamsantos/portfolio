@@ -10,7 +10,7 @@ const dados = [
     {
         id: 1,
         image: IMG1,
-        title: 'Loja de roupas E-commerce',
+        title: 'React E-commerce roupas',
         github: 'https://github.com/pedrowilliamsantos/shopstore',
         demo: 'https://shopstore-pw.vercel.app/'
     },
@@ -24,7 +24,7 @@ const dados = [
     {
         id: 3,
         image: IMG3,
-        title: 'Website Restaurante',
+        title: 'React Website Restaurante',
         github: 'https://github.com/pedrowilliamsantos/restaurante',
         demo: 'https://restaurante-pw.vercel.app/'
     },
